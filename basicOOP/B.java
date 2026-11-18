@@ -16,12 +16,17 @@ public class B extends A{
         super(1, "itsaB");
     }
 
-    public B(int aInt, String aString){
+    public B(int aInt, String aString, double bDouble){
         super(aInt, aString);
+        this.bDouble = bDouble;
     }
 
     public void doubleTheDoubleMakeInt(){
         super.setAInt((int)Math.ceil(Math.pow(bDouble, 2)));
+    }
+
+    public String toString(){
+        return super.toString() + " B { bDouble='" + bDouble + "' }";
     }
 
 }

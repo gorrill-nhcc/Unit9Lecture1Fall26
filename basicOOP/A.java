@@ -54,7 +54,7 @@ public class A {
 
     @Override
     public String toString() {
-        return "{" +
+        return "A {" +
             " aInt='" + getAInt() + "'" +
             ", aString='" + getAString() + "'" +
             "}";
