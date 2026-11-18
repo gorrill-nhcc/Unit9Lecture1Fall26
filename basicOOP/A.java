@@ -10,7 +10,6 @@ public class A {
         this.aString = aString;
     }
 
-
     public int getAInt() {
         return this.aInt;
     }
